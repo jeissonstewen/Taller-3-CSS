@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+main div{
+    background-color: aqua;
+    padding: 25px;
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+}
